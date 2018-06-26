@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# movie objects which will be displayed in the webpage
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that comes to life.",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -35,7 +36,8 @@ dhadak = media.Movie("Dhadak",
                      "This love story explores how the protagonists deal with issues like differences between castes and honor killings.",
                      "https://upload.wikimedia.org/wikipedia/en/f/fb/Dhadak_2018_film.jpg",
                      "https://www.youtube.com/watch?v=TIE92mUvSsw")
-                            
+
+#creating a list of movies to feed to open_movie_page function
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games, dhadak]
 fresh_tomatoes.open_movies_page(movies)
 
