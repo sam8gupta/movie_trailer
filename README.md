@@ -1,5 +1,5 @@
 ## Movie Trailer
-### A project allowing visitors to view the movies' related information such as storyline, poster image and trailer through a webpage:
+### A project displaying all of your favorite movies including movie title, box art URL (or poster URL) and a YouTube link to the movie trailer.
 
 ## Installation
 Before you start, you need to have python(python 2 preffered) installed in your computer.
@@ -35,8 +35,8 @@ All the movies added will be displayed on the webpage.
 
 Here, 
 
-`entertainment.py` file contains the movies' information to be displayed on the webpage.
+`entertainment.py` file contains multiple instances of movie class to represent your favorite movies, grouping all the instances together in a list
 
-`fresh_tomatoes.py` file takes the movies in the form of a list and display it on a webpage.
+`fresh_tomatoes.py` file generate a website that displays these movies.
 
-`media.py` is the media class for defining the instance of a movie.
+`media.py` contains a movie class used to store your favorite movies, including movie title, box art URL (or poster URL) and a YouTube link to the movie trailer.
