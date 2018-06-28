@@ -36,5 +36,7 @@ All the movies added will start displat displaying on the webpage.
 Here, 
 
 `entertainment.py` file contains the movies' information to be displayed on the webpage.
+
 `fresh_tomatoes.py` file takes the movies in the form of a list and display it on a webpage.
+
 `media.py` is the media class for defining the instance of a movie.
