@@ -33,7 +33,7 @@ All the movies added will be displayed on the webpage.
 
 ## Conclusion
 
-Here, 
+Here is the description of the files, incase you you want to enhance the project: 
 
 `entertainment.py` file contains multiple instances of movie class to represent your favorite movies, grouping all the instances together in a list
 
