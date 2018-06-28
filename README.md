@@ -11,13 +11,30 @@ To run the project on mac, open `Terminal` and change directory to the place whe
 Type `python ./entertainment.py` to access the webpage.
 
 ## Usage
-You can add the information of your favourite movies in the `entertainment.py` file in the specified format like:
+You can add the information of your favourite movies in the `entertainment.py` file in the specified format:
 
 variable = media.Movie(
     "Movie Title",
-   "Storyline",
-   "Link of the poster image",
-   "Link of the Trailer"
-  )
-                     
-                    
+    "Storyline",
+    "Link of the poster image",
+    "Link of the Trailer"
+    )
+    
+For instance,
+
+dhadak = media.Movie(
+    "Dhadak",
+    "This love story explores how the protagonists deal with issues like differences between castes and honor killings.",
+    "https://upload.wikimedia.org/wikipedia/en/f/fb/Dhadak_2018_film.jpg",
+    "https://www.youtube.com/watch?v=TIE92mUvSsw"
+    )
+    
+All the movies added will start displat displaying on the webpage.
+
+## Conclusion
+
+Here, 
+
+`entertainment.py` file contains the movies' information to be displayed on the webpage.
+`fresh_tomatoes.py` file takes the movies in the form of a list and display it on a webpage.
+`media.py` is the media class for defining the instance of a movie.
