@@ -29,7 +29,7 @@ dhadak = media.Movie(
     "https://www.youtube.com/watch?v=TIE92mUvSsw"
     )
     
-All the movies added will start displat displaying on the webpage.
+All the movies added will be displayed on the webpage.
 
 ## Conclusion
 
